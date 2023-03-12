@@ -1,0 +1,65 @@
+.container
+{
+    width: 700px;
+    height: 80vh;
+    border: 2px solid black;
+    margin: auto;
+    
+}
+
+#up
+{
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+}
+#down
+{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+#tabs
+{
+    width: 500px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+
+.toggle-btn
+{
+    padding: 10px 90px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+.btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 220px;
+    height: 100%;
+    background:linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
